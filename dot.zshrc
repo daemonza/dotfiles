@@ -59,9 +59,6 @@ export GOPATH=$HOME/workspace/go
 export GOROOT=/usr/local/Cellar/go/1.7.1/libexec
 export PATH=$PATH:$GOPATH:$GOROOT
 
-
-PROG=oder source $GOPATH/src/github.com/codegangsta/cli/autocomplete/zsh_autocomplete 
-
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
