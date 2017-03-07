@@ -26,6 +26,7 @@ Plug 'tpope/vim-sensible'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'saltstack/salt-vim'
 
 " Initialize plugin system
 call plug#end()
