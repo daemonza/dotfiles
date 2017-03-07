@@ -1,4 +1,4 @@
-# Path to your oh-my-zsh installation.
+#Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
@@ -85,9 +85,11 @@ export PATH=$PATH:$GOPATH:$GOROOT
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias j=autojump
 alias fgrep=fgrep --colour=always
+alias vim=nvim
+alias vi=nvim
 
 alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
-export EDITOR='vim'
+export EDITOR='nvim'
 
 # Stop zsh from auto renaming windows
 export DISABLE_AUTO_TITLE="true"
