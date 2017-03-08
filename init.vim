@@ -23,6 +23,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'Shougo/unite.vim'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-dispatch'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
