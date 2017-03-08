@@ -143,7 +143,7 @@ nnoremap <silent> <leader>w :Windows<CR>
 nnoremap <silent> <leader>l :BLines<CR>
 nnoremap <silent> <leader>o :BTags<CR>
 nnoremap <silent> <leader>O :Tags<CR>
-" show history of opened files
+" show MRU files
 nnoremap <silent> <leader>? :History<CR>
 " search lines through files
 nnoremap <silent> <leader>/ :execute 'Ag ' . input('Ag/')<CR>
@@ -156,6 +156,7 @@ nnoremap <silent> <leader>ga :BCommits<CR>
 nnoremap <silent> <leader>gs :Gstatus<CR>
 " git diff
 nnoremap <silent> <leader>gd :Gdiff<CR>
+" git commit 
 nnoremap <silent> <leader>gc :Gcommit<CR>
 " git blame
 nnoremap <silent> <leader>gb :Gblame<CR>
