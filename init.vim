@@ -104,6 +104,9 @@ let g:syntastic_go_checkers = ['gometalinter','golint', 'govet', 'errcheck']
 let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 let g:go_list_type = "quickfix"
 
+" give salt .sls files yaml syntax highlighting
+au BufNewFile,BufRead *.sls setlocal ft=yaml
+
 " set working directory per tab
 " https://dmerej.info/blog/post/vim-cwd-and-neovim/
 function! OnTabEnter(path)
