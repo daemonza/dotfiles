@@ -182,5 +182,5 @@ nnoremap <silent> <leader>[ :tabnext<CR>
 " horizontal
 nnoremap <silent> <leader>- :sp<CR>
 " vertical
-"nnoremap <silent> <leader>| :vsplit<CR>
+nnoremap <silent> <leader>= :vsplit<CR>
 
