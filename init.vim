@@ -158,6 +158,10 @@ nnoremap <silent> <leader>gs :Gstatus<CR>
 nnoremap <silent> <leader>gd :Gdiff<CR>
 " git commit 
 nnoremap <silent> <leader>gc :Gcommit<CR>
+" git push
+nnoremap <silent> <leader>gps :Dispatch! git push<CR>
+" git pull
+nnoremap <silent> <leader>gpl :Dispatch! git pull<CR>
 " git blame
 nnoremap <silent> <leader>gb :Gblame<CR>
 nnoremap <silent> <leader>ge :Gedit<CR>
