@@ -106,6 +106,8 @@ let g:go_list_type = "quickfix"
 
 " give salt .sls files yaml syntax highlighting
 au BufNewFile,BufRead *.sls setlocal ft=yaml
+" set indentation to 2 spaces for yaml
+autocmd Filetype yaml setlocal ts=2 sw=2 expandtab
 
 " set working directory per tab
 " https://dmerej.info/blog/post/vim-cwd-and-neovim/
