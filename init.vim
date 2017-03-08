@@ -190,3 +190,4 @@ nnoremap <silent> <leader>- :sp<CR>
 " vertical
 nnoremap <silent> <leader>= :vsplit<CR>
 
+" test ne key bindings
