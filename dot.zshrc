@@ -56,7 +56,7 @@ export PATH=$PATH:/usr/local/opt/go/libexec/bin:/Users/wgillmer/Code/Go/bin/
 export PATH=$PATH:$HOME/Code/bin
 
 export GOPATH=$HOME/workspace/go
-export GOROOT=/usr/local/Cellar/go/1.7.1/libexec
+export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH:$GOROOT
 
 # You may need to manually set your language environment
