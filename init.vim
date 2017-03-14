@@ -107,6 +107,8 @@ let g:go_list_type = "quickfix"
 
 " give salt .sls files yaml syntax highlighting
 au BufNewFile,BufRead *.sls setlocal ft=yaml
+" treate terraform files as yaml 
+au BufNewFile,BufRead *.tf setlocal ft=yaml
 " set indentation to 2 spaces for yaml
 autocmd Filetype yaml setlocal ts=2 sw=2 expandtab
 
