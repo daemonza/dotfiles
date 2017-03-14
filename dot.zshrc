@@ -52,11 +52,10 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
-export PATH=$PATH:$GOPATH/bin
 
 export GOPATH=$HOME/workspace/go
 export GOROOT=/usr/local/opt/go/libexec
-export PATH=$PATH:$GOPATH:$GOROOT
+export PATH=$PATH:$GOPATH/bin:$GOROOT
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
