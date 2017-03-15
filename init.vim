@@ -81,6 +81,8 @@ let g:go_auto_sameids = 1
 
 " python configuration 
 let g:python_host_prog = '/usr/bin/python'
+" python formatting
+autocmd FileType python nnoremap <leader>y :0,$!yapf<Cr>
 " To close preview window of deoplete automagically
 autocmd CompleteDone * pclose 
 
