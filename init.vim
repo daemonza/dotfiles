@@ -78,6 +78,12 @@ let g:go_auto_type_info = 1
 " auto show Go code identifiers
 let g:go_auto_sameids = 1
 
+
+" python configuration 
+let g:python_host_prog = '/usr/bin/python'
+" To close preview window of deoplete automagically
+autocmd CompleteDone * pclose 
+
 " airline configuration
 " let g:airline#extensions#tabline#enabled = 2
 let g:airline#extensions#tabline#fnamemod = ':t'
