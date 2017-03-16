@@ -6,7 +6,7 @@ endif
 call plug#begin('~/.vim_plugins')
 
 Plug 'dracula/vim'
-Plug 'fatih/vim-go'
+Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'Shougo/deoplete.nvim'
 Plug 'zchee/deoplete-go', {'build': 'make'}
 Plug 'majutsushi/tagbar'
@@ -49,13 +49,12 @@ set relativenumber
 set number
 set cursorline
 
+" deoplete settings
 " Run deoplete.nvim automatically
 let g:deoplete#enable_at_startup = 1
-" deoplete-go settings
-let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
+" let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
 let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
 let g:deoplete#sources#go#use_cache = 1
-let g:deoplete#sources#go#json_directory = '/path/to/data_dir'
 
 " vim-go syntax highlighting
 let g:go_highlight_functions = 1
