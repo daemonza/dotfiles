@@ -29,6 +29,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'saltstack/salt-vim'
 Plug 'python-mode/python-mode'
+Plug 'Valloric/YouCompleteMe'
 
 " Initialize plugin system
 call plug#end()
