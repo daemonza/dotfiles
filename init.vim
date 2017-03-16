@@ -28,6 +28,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'saltstack/salt-vim'
+Plug 'klen/python-mode.git'
 
 " Initialize plugin system
 call plug#end()
