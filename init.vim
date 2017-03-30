@@ -51,13 +51,6 @@ set relativenumber
 set number
 set cursorline
 
-" " deoplete settings
-" " Run deoplete.nvim automatically
-" let g:deoplete#enable_at_startup = 1
-" " let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
-" let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
-" let g:deoplete#sources#go#use_cache = 1
-
 " vim-go syntax highlighting
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
@@ -159,7 +152,6 @@ nnoremap <silent> <leader>O :Tags<CR>
 nnoremap <silent> <leader>? :History<CR>
 " search lines through files
 nnoremap <silent> <leader>/ :execute 'Ag ' . input('Ag/')<CR>
-nnoremap <silent> <leader>. :AgIn
 " git fugitive key bindings
 " show git commits
 nnoremap <silent> <leader>gl :Commits<CR>
